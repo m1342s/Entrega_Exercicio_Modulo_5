@@ -1,0 +1,127 @@
+body {
+  background-color: black;
+  font-family: "Anton";
+}
+
+.social-media-logo {
+  height: 60px;
+  background-color: black;
+}
+.social-media-header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+}
+.followUsHeader {
+  display: flex;
+  gap: 80px;
+}
+header div p {
+  color: gold;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.menuLogo {
+  height: 150px;
+  width: 540px;
+  border: 2px solid white;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: gold;
+  font-size: 20px;
+}
+
+section ul {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around
+}
+section ul li {
+  display: block;
+  border: 2px solid white;
+  width: 400px;
+  height: 500px;
+}
+
+section ul li img {
+  width: 200px;
+  height: 200px;
+}
+section ul li h2 {
+  color: white;
+  font-weight: 200;
+  text-align: center;
+}
+
+section ul li p {
+  color: white;
+  font-size: 18px;
+}
+.divButton{
+display: flex;
+justify-content: center;
+}
+
+section ul li button{
+height: 50px;
+width:200px;
+border-radius: 8px;
+background-color: white;
+font-family: "Anton";
+}
+
+section h3{
+    color: white;
+    font-weight: 100;
+    text-align: left; 
+}
+form{
+    height:400px;
+    width: 500px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+
+form label {
+    color:white;
+    padding-top: 30px;
+}
+
+form input {
+    height:30px;
+    width:320px;
+    border-radius: 8px;
+}
+
+form textarea{
+    height: 40px;
+    width:320px;
+
+}
+.divForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+
+}
+
+form button{
+height: 50px;
+width:200px;
+border-radius: 8px;
+background-color: white;
+font-family: "Anton";
+}
